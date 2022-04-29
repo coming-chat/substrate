@@ -372,7 +372,7 @@ version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fb4401f0a3622dad2e0763fa79e0eb328bc70fb7dccfdd645341f00d671247d6"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures-sink",
  "futures-util",
  "memchr",
@@ -385,7 +385,7 @@ version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f0de5164e5edbf51c45fb8c2d9664ae1c095cce1b265ecf7569093c0d66ef690"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures-sink",
  "futures-util",
  "memchr",
@@ -702,9 +702,9 @@ checksum = "0e4cec68f03f32e44924783795810fa50a7035d8c8ebe78580ad7e6c703fba38"
 
 [[package]]
 name = "bytes"
-version = "1.0.1"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b700ce4376041dcd0a327fd0097c41095743c4c8af8887265942faf1100bd040"
+checksum = "c4872d67bab6358e59559027aa3b9157c53d9358c51423c17554809a8858e0f8"
 
 [[package]]
 name = "cache-padded"
@@ -2454,7 +2454,7 @@ version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7245cd7449cc792608c3c8a9eaf69bd4eabbabf802713748fd739c98b82f0747"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "fnv",
  "itoa",
 ]
@@ -3110,7 +3110,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fe5759b526f75102829c15e4d8566603b4bf502ed19b5f35920d98113873470d"
 dependencies = [
  "atomic",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "lazy_static",
  "libp2p-core",
@@ -3228,7 +3228,7 @@ dependencies = [
  "asynchronous-codec 0.6.0",
  "base64 0.13.0",
  "byteorder",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "fnv",
  "futures 0.3.13",
  "hex_fmt",
@@ -3269,7 +3269,7 @@ checksum = "bbb5b90b6bda749023a85f60b49ea74b387c25f17d8df541ae72a3c75dd52e63"
 dependencies = [
  "arrayvec 0.5.2",
  "asynchronous-codec 0.6.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "either",
  "fnv",
  "futures 0.3.13",
@@ -3315,7 +3315,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "85e9b544335d1ed30af71daa96edbefadef6f19c7a55f078b9fc92c87163105d"
 dependencies = [
  "asynchronous-codec 0.6.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "libp2p-core",
  "log",
@@ -3332,7 +3332,7 @@ version = "0.30.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "36db0f0db3b0433f5b9463f1c0cd9eadc0a3734a9170439ce501ff99733a88bd"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "curve25519-dalek 3.0.2",
  "futures 0.3.13",
  "lazy_static",
@@ -3370,7 +3370,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0c8c37b4d2a075b4be8442760a5f8c037180f0c8dd5b5734b9978ab868b3aa11"
 dependencies = [
  "asynchronous-codec 0.6.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "libp2p-core",
  "log",
@@ -3401,7 +3401,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3ff268be6a9d6f3c6cca3b81bbab597b15217f9ad8787c6c40fc548c1af7cd24"
 dependencies = [
  "asynchronous-codec 0.6.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "futures-timer 3.0.2",
  "libp2p-core",
@@ -3424,7 +3424,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "725367dd2318c54c5ab1a6418592e5b01c63b0dedfbbfb8389220b2bcf691899"
 dependencies = [
  "async-trait",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "libp2p-core",
  "libp2p-swarm",
@@ -3954,7 +3954,7 @@ version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7d91ec0a2440aaff5f78ec35631a7027d50386c6163aa975f7caa0d5da4b6ff8"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures 0.3.13",
  "log",
  "pin-project 1.0.5",
@@ -6237,7 +6237,7 @@ version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9e6984d2f1a23009bd270b8bb56d0926810a3d483f59c987d77969e9d8e840b2"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "prost-derive",
 ]
 
@@ -6247,7 +6247,7 @@ version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32d3ebd75ac2679c2af3a92246639f9fcc8a442ee420719cc4fe195b98dd5fa3"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "heck",
  "itertools 0.9.0",
  "log",
@@ -6278,7 +6278,7 @@ version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b518d7cdd93dab1d1122cf07fa9a60771836c668dde9d9e2a139f957f0d9f1bb"
 dependencies = [
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "prost",
 ]
 
@@ -7585,7 +7585,7 @@ dependencies = [
  "asynchronous-codec 0.5.0",
  "bitflags",
  "bs58",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "cid",
  "derive_more",
  "either",
@@ -7687,7 +7687,7 @@ dependencies = [
 name = "sc-offchain"
 version = "3.0.0"
 dependencies = [
- "bytes 0.5.6",
+ "bytes 1.1.0",
  "fnv",
  "futures 0.3.13",
  "futures-timer 3.0.2",
@@ -10506,7 +10506,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "35581ff83d4101e58b582e607120c7f5ffb17e632a980b1f38334d76b36908b2"
 dependencies = [
  "asynchronous-codec 0.5.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures-io",
  "futures-util",
 ]
@@ -10518,7 +10518,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5f8d425fafb8cd76bc3f22aace4af471d3156301d7508f2107e98fbeae10bc7f"
 dependencies = [
  "asynchronous-codec 0.6.0",
- "bytes 1.0.1",
+ "bytes 1.1.0",
  "futures-io",
  "futures-util",
 ]
